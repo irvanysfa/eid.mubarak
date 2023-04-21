@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page 1 nih</title>
+    <link rel="stylesheet" type="text/css" href="hai.css">
+</head>
+<body>
+    <div class="intro">
+		<img src="ied.png" alt="Gambar" class="right-image">
+		<img src="ketupat.png" alt="Gambar" class="ketupat">
+	<h1>Halo Halo!</h1><br>
+	<h3>Assalamualaikum <span id="nama"></span></h3> <img src="lentera.png" alt="Gambar" class="lentera">
+    <h4>Terimakasih lo udah ngeklik linknya.</h4>
+    </div>
+    <br>
+    <div class="button-container">
+        <div class="lanjut">
+          <a href="eidfitri.html">Lanjut aja ya!</a>
+        </div>
+
+	<script>
+		// Mengambil nama dari pengguna yang dimasukkan pada awal running program
+		var nama = prompt("Nama kamu siapa nih?");
+
+		// Menampilkan nama pada halaman HTML
+		var namaSpan = document.getElementById("nama");
+		namaSpan.innerHTML = nama;
+	</script>
+</body>
+</html>
